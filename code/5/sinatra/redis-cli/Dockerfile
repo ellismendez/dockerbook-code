@@ -1,5 +1,5 @@
-FROM ubuntu:14.04
-MAINTAINER James Turnbull "james@example.com"
+FROM ubuntu:18.04
+LABEL maintainer="james@example.com"
 ENV REFRESHED_AT 2015-07-20
 
 RUN apt-get update
